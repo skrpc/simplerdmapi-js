@@ -1,13 +1,18 @@
 {
-  "name": "simplerdmapi-js",
+  "name": "@skrpc/simplerdmapi-js",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "repository": "https://github.com/my-org/test.git",
   "files": [
     "/dist"
   ],
+  "exports": {
+    "import": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  },
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
