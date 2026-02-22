@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
-  "repository": "https://github.com/my-org/test.git",
+  "repository": "https://github.com/skrpc/simplerdmapi-js",
   "files": [
     "/dist"
   ],
